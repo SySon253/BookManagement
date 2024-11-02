@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="signIn.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <title>Quản Lý Sách</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <form action="home.html" id="form-login">
+        <h1 class="form-heading">Account</h1>
+        <div class="form-group">
+          <i class="far fa-user"></i>
+          <input type="text" id="username" class="form-input" placeholder="Username" />
+        </div>
+        <div class="form-group">
+          <i class="fas fa-key"></i>
+          <input type="password" id="password" class="form-input" placeholder="Password" />
+
+          <div id="eye">
+            <i class="far fa-eye"></i>
+          </div>
+        </div>
+        <span id="error-message" style="color: red;"></span>
+
+         <button id='submit-btn' style="text-decoration: none;margin-left: 165px;color: white;" type="submit">Sign in</a>
+      </form>
+    </div>
+    <script src="signIn.js"></script>
+  </body>
+  
+</html>
