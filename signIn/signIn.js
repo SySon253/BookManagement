@@ -1,6 +1,7 @@
 const correctUsername = "admin";  
 const correctPassword = "12345";  
 
+// thêm hành động click submit
 document.getElementById('submit-btn').addEventListener('click', function (e) {
     const username = document.getElementById("username").value;
     const password = document.getElementById("password").value;
